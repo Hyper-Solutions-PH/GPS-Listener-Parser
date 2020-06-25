@@ -27,7 +27,7 @@ namespace GPSParser.DBLogic
             {
                 db.ExecSP(sp);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                
             }
@@ -56,7 +56,7 @@ namespace GPSParser.DBLogic
             {
                 db.ExecSP(sp);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
             }
